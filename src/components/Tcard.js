@@ -30,7 +30,7 @@ function Tcard() {
             max={200}
             style={{
               margin: "0 16px",
-              color: "black",
+
               background: "transparent",
               border: "none",
 
@@ -68,14 +68,14 @@ function Tcard() {
               max={400.27}
               style={{
                 margin: "0 16px",
-                color: "black",
+                color: "white",
                 background: "transparent",
                 border: "none",
 
                 height: "40px",
                 fontSize: "30px",
                 width: "110px",
-                color: "white",
+
                 marginLeft: "0px",
                 borderBottom: "1px solid white",
               }}
