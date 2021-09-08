@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background: #f1f2f4;
+  min-height: 670px;
 }
 
 .App-logo {
@@ -35,4 +40,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.input-card input {
+  min-width: 350px;
+  height: 39px;
+  border: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  text-align: left;
+  box-shadow: 5px 5px 2px #e2e0e0;
+}
+.input-card input:placeholder-shown {
+  padding-left: 10px;
+}
+.input-card input::-webkit-textfield-decoration-container {
+  background: lightblue;
+}
+.inputBtn {
+  min-height: 41px;
+  border: none;
+  background: #5ac937;
+  color: white;
+  min-width: 150px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: 5px 5px 2px #e2e0e0;
+}
+.violetCard {
+  text-align: center;
+}
+.violetCard p {
+  background: #a744cb;
+  padding: 6px;
+  color: white;
+  border-radius: 4px;
+  margin: 30px 440px;
+  box-shadow: 8px 8px 4px #b8b7b7;
+}
+.cards {
+  display: flex;
+  margin: 100px 250px;
 }

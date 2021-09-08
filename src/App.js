@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Fcard from "./components/Fcard";
+import Scard from "./components/Scard";
+import Tcard from "./components/Tcard";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+      <div>
+        <h1 style={{ fontSize: "35px", fontWeight: "bold" }}>Simple Pricing</h1>
+        <div className="input-card">
+          <input type="text" placeholder="your work email" />
+          <button className="inputBtn">Get Started Free</button>
+        </div>
+        <p style={{ marginTop: "25px", fontSize: "15px", color: "grey" }}>
+          Free Forever version with unlimited Users.Free 14days trial to test
+          premium
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div className="violetCard">
+          <p>Free Asana & Jira Migration! Transfer everything in seconds!</p>
+        </div>
+      </div>
+      <div className="cards">
+        <Fcard />
+        <Scard />
+        <Tcard />
+      </div>
     </div>
   );
 }
